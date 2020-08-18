@@ -1,0 +1,25 @@
+{
+  "name": "flights-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "cockatiel": "^1.1.1",
+    "hapi": "^18.1.0",
+    "lodash": "^4.17.20",
+    "superagent": "^6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
