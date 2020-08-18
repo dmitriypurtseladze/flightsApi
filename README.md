@@ -13,3 +13,4 @@
     - Application - provides business layer with the main application request handlers ("UseCases");
     - Models - data representation for the API client, and data serializers;
     - Infrastructure - provides all the connections to the external services, such as APIs, message busses, databases and cache services;
+    - Tests - contains unit tests that check the individual units of the application.
