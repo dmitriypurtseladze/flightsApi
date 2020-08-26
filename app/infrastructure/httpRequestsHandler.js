@@ -31,7 +31,7 @@ module.exports = class httpRequestsHandler {
                 })
                 .catch(error => {
                     console.log(error);
-                    return reject(new Error(err));
+                    return reject(new Error(error));
                 });
         });
     }
